@@ -1,7 +1,7 @@
 edition = "2023";
 
 package proto;
-option go_package = "grpc-server/go-server";
+option go_package = "grpc-server/go";
 
 service MessageServer {
   rpc GetMessage(MessageRequest) returns (Message) {}
